@@ -1,0 +1,153 @@
+.location {
+    height: 50px;
+    background: nth($palette_color, 6);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+    &__icon {
+        width: 12px;
+        height: 16px;
+        color: nth($palette_color, 7);
+    }
+
+    &__city {
+        width: 109px;
+        font-family: $family-common;
+        font-style: normal;
+        font-weight: $weight-medium;
+        font-size: $size-common;
+        line-height: 19px;
+    }
+    
+}
+
+.CTA {
+    background-color: nth($palette_color, 8);
+    text-align: center;
+    font-family: $family-common;
+    font-style: normal;
+    padding: 10px;
+
+    &__heading {
+        width: 645px;
+        font-weight: $weight-bold;
+        line-height: 47px;
+        color: nth($palette_color, 9);
+        margin: auto;
+        @media screen and (max-width:map-get($media_query,Mobile)) {
+            width: 275px;
+            line-height: 28px;
+        }
+
+    }
+
+    &__discrption {
+        font-weight: $weight-light;
+        font-size: $size-card-heading;
+        line-height: 21px;
+    }
+
+    &__btn {
+        display: block;
+        width: 218px;
+        height: 50px;
+        background: linear-gradient(200.64deg, nth($palette_color, 1) -5.2%, nth($palette_color, 2) 110.74%);
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+        border-radius: 25px;
+        font-weight: $weight-medium;
+        font-size: $size-common;
+        line-height: 19px;
+        padding: 15px;
+        margin: auto;
+        color: nth($palette_color, 5);
+        position: relative;
+        top: 15%;
+        transform: scale(1);
+        &:hover {
+            transform: scale(1.15);
+        }
+    }
+    @media screen and (max-width:map-get($media_query,Mobile)) {
+        width: 100%;
+        
+        }
+}
+
+.fonctionement {
+    padding: 60px 0;
+    background-color: nth($palette_color, 5);
+    &__b{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        @media screen and (max-width:map-get($media_query,Mobile)) {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+    }
+
+    &__heading {
+        font-weight: $weight-bold;
+        font-size: $size-heading;
+        line-height: 28px;
+        color: nth($palette_color, 9);
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+
+    &__block {
+        width: 322.49px;
+        height: 72.38px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        background: nth($palette_color ,10);
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+        border-radius: 20px;
+        &__num{
+            width: 24px;
+            height: 24px;
+            background:  nth($palette_color ,1);
+            margin-left: -10px;
+            border-radius: 20px;
+            color: #FFFFFF;
+            text-align: center;
+        }
+        &:hover{
+            background-color: nth($palette_color ,11);
+            color: nth($palette_color ,1);
+        }
+        
+    }
+    
+
+}
+.restaurants{
+    background: nth($palette_color ,8);
+    padding: 60px 0;
+    &__heading {
+        width: 90%;
+        margin: 0 auto 20px auto;
+    }
+    &__cards {
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        @media screen and (max-width:map-get($media_query,Mobile)) {
+            width: max-content;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    }
+
+}

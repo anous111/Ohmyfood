@@ -1,0 +1,27 @@
+.footer {
+    padding: 60px 0;
+    background-color: nth($palette_color, 7);
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    color: nth($palette_color, 5);
+    gap: 20px;
+
+    &__c1 {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+
+    }
+    &__heading{
+        font-size: $family-heading;
+        font-style: italic;
+        @include font-parameters($size-card-heading,$weight-common);
+    }
+    @media screen and (max-width:map-get($media_query,Mobile)) {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+}

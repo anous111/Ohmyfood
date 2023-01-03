@@ -1,0 +1,40 @@
+// Color set //
+$color_primary:#9356DC;
+$color_secondary:#FF79DA;
+$color_tertiaire:#99E2D0;
+$color_header:#101010;
+$color_white:#FFFFFF;
+$color_gray:#EAEAEA;
+$color_dark:#353535;
+$color_cta:#D2D2D2;
+$color_black:#000000;
+$color_block:#F7F7F7;
+$color_hover:#F5EDFF;
+
+
+$palette_color:($color_primary,$color_secondary,$color_tertiaire,$color_header,$color_white,$color_gray,$color_dark,$color_cta,$color_black,$color_block,$color_hover);
+
+// Font family //
+$family-common: 'Roboto', sans-serif;
+$family-heading: 'Shrikhand', 'cursive';
+
+// Font size //
+$size-tag: 14px;
+$size-common: 16px;
+$size-card-heading: 18px;
+$size-heading: 24px;
+$size-restaurant-name: 27px;
+
+// Font weight //
+$weight-light: 300;
+$weight-common: 400;
+$weight-medium: 500;
+$weight-bold: 700;
+$weight-black: 900;
+
+// Média query //
+
+$media_query:(
+  Mobile: 768px,
+  Tablette:992px,
+);

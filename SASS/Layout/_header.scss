@@ -1,0 +1,16 @@
+.header{
+    height: 96px;
+    background:nth($palette_color , 5);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    &__logo img{
+        width:200px;
+        height:54px;
+        
+    }
+  @media screen and (max-width:map-get($media_query,Mobile)) {
+    height: 63px;
+    }
+}
