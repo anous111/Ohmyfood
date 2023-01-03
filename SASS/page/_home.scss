@@ -137,10 +137,11 @@
         margin: 0 auto 20px auto;
     }
     &__cards {
-        width: 90%;
+        width: 100%;
         margin: auto;
         display: flex;
         flex-direction: row;
+        justify-content: center;
         gap: 20px;
         @media screen and (max-width:map-get($media_query,Mobile)) {
             width: max-content;
