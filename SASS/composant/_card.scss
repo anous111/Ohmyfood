@@ -12,12 +12,12 @@ height: max-content;
     width: 80px;
     height: 29px;
     position: absolute;
-    right: 74%;
-    top: 82%;
+    right: 78%;
+    top: 84%;
     @media screen and (max-width:map-get($media_query,Mobile)) {
         position: absolute;
-        right: 10%;
-        top: 119%;
+        right: 29%;
+        top: 105%;
     }
 }
 &__image {
