@@ -86,7 +86,7 @@ a {
   .card__new {
     position: absolute;
     right: 10%;
-    top: 90%;
+    top: 119%;
   }
 }
 .card__image {
@@ -137,7 +137,7 @@ a {
   text-align: center;
   font-family: "Roboto", sans-serif;
   font-style: normal;
-  padding: 10px;
+  padding: 50px;
 }
 .CTA__heading {
   width: 645px;
@@ -155,7 +155,7 @@ a {
 .CTA__discrption {
   font-weight: 300;
   font-size: 18px;
-  line-height: 21px;
+  line-height: 73px;
 }
 .CTA__btn {
   display: block;
@@ -166,7 +166,6 @@ a {
   border-radius: 25px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
   padding: 15px;
   margin: auto;
   color: #FFFFFF;
